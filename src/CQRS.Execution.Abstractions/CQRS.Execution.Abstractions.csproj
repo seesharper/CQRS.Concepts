@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CQRS.Command.Abstractions\CQRS.Command.Abstractions.csproj" />
+    <ProjectReference Include="..\CQRS.Query.Abstractions\CQRS.Query.Abstractions.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
